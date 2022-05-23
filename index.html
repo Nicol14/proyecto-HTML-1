@@ -4,28 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>Laboratorio hoja de vida</title>
   </head>
   <body>
-    <h1>Informacion general</h1>
-    <p>Nombre: Nicol Dayana Munevar Trujillo</p>
-    <p>Email: nicolmunevar14@gmail.com</p>
-    <p>Celular: 3128121418</p>
-    <p>
+    <h1 class="titulos">Informacion general</h1>
+    <p class="laboratorio" id="nombre">Nombre: Nicol Dayana Munevar Trujillo</p>
+    <p class="laboratorio" id="email">Email: nicolmunevar14@gmail.com</p>
+    <p class="laboratorio" id="celular">Celular: 3128121418</p>
+    <p class="laboratorio" id="ubicacion">
       Ubicacion:
       <a
         href="https://www.google.com.co/maps/place/Conjunto+Residencial+Los+Cerezos/@4.5866622,-74.1988645,17z/data=!4m12!1m6!3m5!1s0x8e3f9fca30dc28e1:0x1523254e8f6bd51c!2sConjunto+Residencial+Los+Cerezos!8m2!3d4.5866568!4d-74.1966758!3m4!1s0x8e3f9fca30dc28e1:0x1523254e8f6bd51c!8m2!3d4.5866568!4d-74.1966758?hl=es&authuser=0"
         >Mi ubicacion
       </a>
     </p>
-    <p>
+    <p class="laboratorio" id="github">
       GITHUB:
       <a href="https://github.com/Nicol14?tab=repositories"
         >Mis repositorios
       </a>
     </p>
     <hr />
-    <h2>Experiencia</h2>
+    <h2 class="titulo">Experiencia</h2>
     <ol>
       <li>
         Me gustaria tener experiencia en programacion de paginas web, haber
@@ -46,22 +47,22 @@
       </li>
     </ol>
     <hr />
-    <h3>Habilidades tecnicas y tecnologicas</h3>
+    <h3 class="titulo">Habilidades tecnicas y tecnologicas</h3>
 
-    <table border="1">
+    <table border="1" class="tablas">
       <tr>
-        <td>Microsoft Excel</td>
-        <td>Microsoft Word</td>
-        <td>Microsoft Power Point</td>
+        <td class="tablas">Microsoft Excel</td>
+        <td class="tablas">Microsoft Word</td>
+        <td class="tablas">Microsoft Power Point</td>
       </tr>
       <tr>
-        <td>Gestion de Proyectos</td>
-        <td>Grupos a distancia</td>
-        <td>Herramientas colaborativas</td>
+        <td class="tablas">Gestion de Proyectos</td>
+        <td class="tablas">Grupos a distancia</td>
+        <td class="tablas">Herramientas colaborativas</td>
       </tr>
     </table>
     <hr />
-    <h4>Intereses</h4>
+    <h4 class="titulo">Intereses</h4>
 
     <table border="1">
       <tr>
@@ -86,11 +87,11 @@
       <input type="email" />
     </form>
     <br />
-    <textarea name="textarea" rows="10" cols="50">
+    <textarea name="textarea" rows="10" cols="50" id="mensaje-opinion">
 Deja tu mensaje aqui</textarea
     >
     <br />
-    <button name="button">
+    <button name="button" id="primer-boton">
       Precioname
       <a
         href="https://docs.google.com/document/d/1Hn3ZvxlgJOpSDyJWRzzfGq9MZb7AL4_XX1TwgZQMINc/edit?usp=sharing"
