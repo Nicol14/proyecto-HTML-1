@@ -14,22 +14,44 @@ h1 {
 .tablas {
   border: 6px;
   background-color: palevioletred;
-  background-position: 5px;
+  background-position: 2px;
   border-color: black;
+  border-style: solid;
+  text-align: center;
 }
 html {
-  background-color: aquamarine;
+  background-color: beige;
 }
 button {
   background-color: blue;
   padding: 10px;
   display: inline-block;
   border-radius: 5px;
+  text-align: center;
+  background-position-x: center;
 }
 table {
-  border: 2px black;
+  text-align: center;
 }
 #mensaje-opinion {
-  border: 7px;
+  border-style: solid;
   border-color: blue;
+  text-align: center;
+}
+.contenedor {
+  border: solid;
+  text-align: center;
+}
+#lista {
+  text-align: center;
+}
+#espacio {
+  text-align: center;
+}
+#rosado {
+  background-color: pink;
+  text-align: center;
+}
+#primer-boton {
+  background-position: 50px;
 }
